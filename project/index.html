@@ -8,8 +8,10 @@
     <meta name="google-site-verification"
         content="google-site-verification=Zs8n9l7m1Xo2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8">
     <!-- css tailwind -->
+     <!-- link font -->
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
+    
     <!-- jquery -->
     <script src="assets/js/jquery.js"></script>
 
@@ -27,8 +29,7 @@
         <div class="absolute inset-0 bg-black/50"></div>
 
         <!-- NAVBAR -->
-        <nav class="fixed top-0 left-0 w-full z-50 
-                bg-white/40 backdrop-blur-md border-b border-white/20">
+        <nav class="fixed top-0 left-0 w-full z-50 bg-white/40 backdrop-blur-md border-b border-white/20" style="font-family: 'Playfair Display', serif;">
 
             <div class="container mx-auto px-6 py-4">
                 <div class="flex items-center justify-between">
@@ -59,9 +60,11 @@
         <div class="container mx-auto px-6 py-4">
             <div class="flex w-[60%] items-center justify-between h-screen">
                 <div class="text-white z-20">
-                    <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight">Makanan Lezat,<br> Acara Lebih
-                        Berkesan</h1>
-                    <p class="text-xl mb-8 underline decoration-2">Dipercaya 1000+ pelanggan • Halal • Higienis • Tepat
+                    <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight"
+                        style="font-family: 'Playfair Display', serif;">
+                        Makanan Lezat,<br> Acara Lebih Berkesan
+                    </h1>
+                    <p class="text-xl mb-8 underline decoration-2 italic">Dipercaya 1000+ pelanggan • Halal • Higienis • Tepat
                         waktu</p>
                     <a href="#"
                         class="bg-red-600 font-bold text-white px-6 py-3 rounded-xl hover:bg-red-700 transition duration-300 gap-4 inline-flex items-center">
@@ -83,7 +86,7 @@
             <div class="w-full md:w-[60%] mx-auto">
                 <div
                     class="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-4 before:bg-red-600 mb-10">
-                    <h2 class="text-5xl relative text-white -skew-y-3 font-extrabold mb-5 tracking-tight">
+                    <h2 class="text-5xl relative text-white -skew-y-3 font-extrabold mb-5 tracking-tight" style="font-family: 'Playfair Display', serif;">
                         Kenapa memilih kami?</h2>
                 </div>
                 <p class="leading-relaxed italic mb-3"> 🍴🥄karena kami mengutamakan rasa dan bahan yang higenis, dari
@@ -112,7 +115,7 @@
 
             <!-- Title -->
             <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-5xl font-extrabold text-red-500 tracking-tight">
+                <h2 class="text-3xl md:text-5xl font-extrabold text-red-500 tracking-tight" style="font-family: 'Playfair Display', serif;">
                     Menu Kami
                 </h2>
                 <p class="text-red/80 mt-3">Pilihan menu terbaik untuk acara Anda</p>
@@ -148,6 +151,47 @@
                 </div>
             </div>
         </section>
+    </section>
+
+    <section id="paket_catering" class="py-16">
+        <div class="container mx-auto px-6 py-12">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-5xl font-extrabold text-red-500 tracking-tight" style="font-family: 'Playfair Display', serif;">
+                    Paket Catering Kami
+                </h2>
+                <p class="text-sm text-gray-600">Pilih paket yang sesuai dengan kebutuhan acara Anda</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:scale-105 transition duration-300">
+                    <h3 class="text-xl font-bold mb-4">Paket A</h3>
+                    <ul class="text-gray-600 mb-6">
+                        <li>🍛 Nasi Goreng</li>
+                        <li>🍗 Ayam Bakar</li>
+                        <li>🥗 Salad Sayur</li>
+                    </ul>
+                    <h2 class="text-2xl italic text-center font-bold bg-green-200 p-3 rounded-sm">2.000.000.Rp</h2>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:scale-105 transition duration-300">
+                    <h3 class="text-xl font-bold mb-4">Paket B</h3>
+                    <ul class="text-gray-600 mb-6">
+                        <li>🍝 Spaghetti</li>
+                        <li>🍤 Udang Goreng</li>
+                        <li>🥗 Salad Buah</li>
+                    </ul>
+                    <h2 class="text-2xl italic text-center font-bold bg-green-200 p-3 rounded-sm">2.000.000.Rp</h2>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:scale-105 transition duration-300">
+                    <h3 class="text-xl font-bold mb-4">Paket C</h3>
+                    <ul class="text-gray-600 mb-6">
+                        <li>🍲 Sup Ayam</li>
+                        <li>🍖 Daging Panggang</li>
+                        <li>🥗 Salad Kol</li>
+                    </ul>
+                    <h2 class="text-2xl italic text-center font-bold bg-green-200 p-3 rounded-sm">2.000.000.Rp</h2>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section>
@@ -215,7 +259,8 @@
 
                 <div class="w-full py-12">
                     <div class="h-60 max-w-4xl mx-auto px-4">
-                        <h1 class="text-2xl md:text-3xl font-bold mb-8 text-center"><span class="text-red-600 italic">Catalog </span>Kami</h1>
+                        <h1 class="text-2xl md:text-3xl font-bold mb-8 text-center"><span
+                                class="text-red-600 italic">Catalog </span>Kami</h1>
                         <div class="flex relative grid grid-cols-3 grid-auto-rows-auto gap-2 mt-6">
                             <img src="assets/img/img_1.jfif" class="w-32 h-32 object-cover rounded-lg shadow-md">
                             <img src="assets/img/img_2.jfif" class="w-32 h-32 object-cover rounded-lg shadow-md">
@@ -227,14 +272,15 @@
         </div>
     </section>
 
-     <section class="bg-green-600 text-white py-20 text-center">
+    <section class="bg-green-600 text-white py-20 text-center">
         <h2 class="text-4xl font-extrabold mb-6">Pesan Sekarang Sebelum Slot Penuh!</h2>
-        <button class="bg-white text-green-600 px-8 py-3 rounded-full font-semibold hover:scale-105 transition">Chat WhatsApp</button>
+        <button class="bg-white text-green-600 px-8 py-3 rounded-full font-semibold hover:scale-105 transition">Chat
+            WhatsApp</button>
     </section>
 
-     <a href="#" class="fixed bottom-5 right-5 bg-green-500 text-white px-5 py-3 rounded-full shadow-lg">WhatsApp</a>
+    <a href="#" class="fixed bottom-5 right-5 bg-green-500 text-white px-5 py-3 rounded-full shadow-lg">WhatsApp</a>
 
-     <footer id="kontak" class="bg-gray-900 text-gray-300 py-12 text-center">
+    <footer id="kontak" class="bg-gray-900 text-gray-300 py-12 text-center">
         <h3 class="text-xl font-bold text-white mb-2">CateringKu</h3>
         <p>Jl. Contoh No.123</p>
         <p>WhatsApp: 08123456789</p>
