@@ -194,89 +194,106 @@
         </div>
     </section>
 
-    <section>
-        <div class="mt-20">
-            <div class="relative w-full grip grid-cols-2 md:grid-cols-2 flex items-center justify-center">
-                <div class="w-full py-12 bg-gray-50">
-                    <div class="max-w-4xl h-60 mx-auto px-4">
+    <section class="mt-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 items-start">
 
-                        <!-- Title -->
-                        <h1 class="text-2xl md:text-3xl font-bold mb-8 text-center">
-                            <span class="text-red-600 italic">Testimoni</span> dari mereka
-                        </h1>
+        <!-- TESTIMONI -->
+        <div class="w-full py-12 bg-gray-50">
+            <div class="max-w-4xl mx-auto px-4">
 
-                        <!-- Carousel -->
-                        <div class="relative overflow-hidden">
+                <h1 class="text-2xl md:text-3xl font-bold mb-8 text-center">
+                    <span class="text-red-600 italic">Testimoni</span> dari mereka
+                </h1>
 
-                            <!-- Slides -->
-                            <div id="carousel" class="flex transition-transform duration-500">
+                <div class="relative overflow-hidden">
 
-                                <!-- Item 1 -->
-                                <div class="min-w-full flex justify-center">
-                                    <div class="max-w-sm p-6 bg-white rounded-xl shadow-md text-center">
-                                        <p>⭐⭐⭐⭐⭐</p>
-                                        <p class="text-gray-600 italic mt-2">"Makanan enak banget, pelayanan cepat!"</p>
-                                        <h5 class="text-lg mt-6 font-semibold">Regi</h5>
-                                    </div>
-                                </div>
+                    <!-- Slides -->
+                    <div id="carousel" class="flex transition-transform duration-500">
 
-                                <!-- Item 2 -->
-                                <div class="min-w-full flex justify-center">
-                                    <div class="max-w-sm p-6 bg-white rounded-xl shadow-md text-center">
-                                        <p>⭐⭐⭐⭐⭐</p>
-                                        <p class="text-gray-600 italic mt-2">"Catering terbaik untuk acara keluarga."
-                                        </p>
-                                        <h5 class="text-lg mt-6 font-semibold">Andi</h5>
-                                    </div>
-                                </div>
-
-                                <!-- Item 3 -->
-                                <div class="min-w-full flex justify-center">
-                                    <div class="max-w-sm p-6 bg-white rounded-xl shadow-md text-center">
-                                        <p>⭐⭐⭐⭐⭐</p>
-                                        <p class="text-gray-600 italic mt-2">"Rasa mantap dan higienis 👍"</p>
-                                        <h5 class="text-lg mt-6 font-semibold">Sinta</h5>
-                                    </div>
-                                </div>
-
+                        <!-- Item -->
+                        <div class="min-w-full flex justify-center px-2">
+                            <div class="w-full max-w-sm p-6 bg-white rounded-xl shadow-md text-center">
+                                <p>⭐⭐⭐⭐⭐</p>
+                                <p class="text-gray-600 italic mt-2">
+                                    "Makanan enak banget, pelayanan cepat!"
+                                </p>
+                                <h5 class="text-lg mt-6 font-semibold">Regi</h5>
                             </div>
+                        </div>
 
-                            <!-- Button -->
-                            <button onclick="prevSlide()"
-                                class="absolute left-0 top-1/2 -translate-y-1/2 bg-white shadow px-3 py-1 rounded-full">
-                                ◀
-                            </button>
+                        <div class="min-w-full flex justify-center px-2">
+                            <div class="w-full max-w-sm p-6 bg-white rounded-xl shadow-md text-center">
+                                <p>⭐⭐⭐⭐⭐</p>
+                                <p class="text-gray-600 italic mt-2">
+                                    "Catering terbaik untuk acara keluarga."
+                                </p>
+                                <h5 class="text-lg mt-6 font-semibold">Andi</h5>
+                            </div>
+                        </div>
 
-                            <button onclick="nextSlide()"
-                                class="absolute right-0 top-1/2 -translate-y-1/2 bg-white shadow px-3 py-1 rounded-full">
-                                ▶
-                            </button>
-
+                        <div class="min-w-full flex justify-center px-2">
+                            <div class="w-full max-w-sm p-6 bg-white rounded-xl shadow-md text-center">
+                                <p>⭐⭐⭐⭐⭐</p>
+                                <p class="text-gray-600 italic mt-2">
+                                    "Rasa mantap dan higienis 👍"
+                                </p>
+                                <h5 class="text-lg mt-6 font-semibold">Sinta</h5>
+                            </div>
                         </div>
 
                     </div>
-                </div>
 
-                <div class="w-full py-12">
-                    <div class="h-60 max-w-4xl mx-auto px-4">
-                        <h1 class="text-2xl md:text-3xl font-bold mb-8 text-center"><span
-                                class="text-red-600 italic">Catalog </span>Kami</h1>
-                        <div class="flex relative grid grid-cols-3 grid-auto-rows-auto gap-2 mt-6">
-                            <img src="assets/img/img_1.jfif" class="w-32 h-32 object-cover rounded-lg shadow-md">
-                            <img src="assets/img/img_2.jfif" class="w-32 h-32 object-cover rounded-lg shadow-md">
-                            <img src="assets/img/img_3.jfif" class="w-32 h-32 object-cover rounded-lg shadow-md">
-                        </div>
-                    </div>
+                    <!-- Button -->
+                    <button onclick="prevSlide()"
+                        class="absolute left-2 top-1/2 -translate-y-1/2 bg-white shadow px-3 py-1 rounded-full">
+                        ◀
+                    </button>
+
+                    <button onclick="nextSlide()"
+                        class="absolute right-2 top-1/2 -translate-y-1/2 bg-white shadow px-3 py-1 rounded-full">
+                        ▶
+                    </button>
+
                 </div>
             </div>
         </div>
-    </section>
 
-    <section class="bg-green-600 text-white py-20 text-center">
-        <h2 class="text-4xl font-extrabold mb-6">Pesan Sekarang Sebelum Slot Penuh!</h2>
-        <button class="bg-white text-green-600 px-8 py-3 rounded-full font-semibold hover:scale-105 transition">Chat
-            WhatsApp</button>
-    </section>
+        <!-- CATALOG -->
+        <div class="w-full py-12">
+            <div class="max-w-4xl mx-auto px-4">
+
+                <h1 class="text-2xl md:text-3xl font-bold mb-8 text-center">
+                    <span class="text-red-600 italic">Catalog</span> Kami
+                </h1>
+
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                    <img src="assets/img/img_1.jfif"
+                        class="w-full h-32 sm:h-40 object-cover rounded-lg shadow-md">
+
+                    <img src="assets/img/img_2.jfif"
+                        class="w-full h-32 sm:h-40 object-cover rounded-lg shadow-md">
+
+                    <img src="assets/img/img_3.jfif"
+                        class="w-full h-32 sm:h-40 object-cover rounded-lg shadow-md">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-green-600 text-white py-16 text-center px-4">
+    <h2 class="text-2xl md:text-4xl font-extrabold mb-6">
+        Pesan Sekarang Sebelum Slot Penuh!
+    </h2>
+
+    <button
+        class="bg-white text-green-600 px-6 md:px-8 py-3 rounded-full font-semibold hover:scale-105 transition">
+        Chat WhatsApp
+    </button>
+</section>
 
     <a href="#" class="fixed bottom-5 right-5 bg-green-500 text-white px-5 py-3 rounded-full shadow-lg">WhatsApp</a>
 
